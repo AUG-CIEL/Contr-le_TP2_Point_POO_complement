@@ -1,5 +1,6 @@
 #include <iostream>;
 #include "DS.h";
+using namespace std;
 Point::Point()
 {
 
@@ -77,6 +78,28 @@ Point Point::additionner(const Point* pt, string nom)
 	return somme;
 }
 
+//Triangle
 
 
+Triangle::Triangle()
+{
+	this->Sommet;
+	this->cote;
+}
 
+void Triangle::init()
+{
+	double cote1, cote2, cote3;
+	cout << "Merci de saisir la côte n°1:";
+		cin >> cote1;
+
+}
+
+void Triangle::affiche()
+{
+}
+
+double Triangle::perimetre()
+{
+	return 0.0;
+}

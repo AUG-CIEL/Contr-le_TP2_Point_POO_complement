@@ -31,10 +31,12 @@ public :
 };
 class Triangle
 {
-private:
 	
+	private:
+		Point Sommet[3]; 
+		double cote[3];
 
-public:
+	public:
 	Triangle();
 	void init();
 	void affiche();
