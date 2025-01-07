@@ -21,8 +21,7 @@ public :
 	void saisir();
 	void affiche();
 	double distance(Point P);
-	Point additionner(string pt);
-
+	Point additionner(const Point* pt, string nom)
 	/* const double getC();
 	const double getD();
 	void setC(double c);

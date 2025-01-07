@@ -63,7 +63,7 @@ double Point::distance(Point P)
 	return 0.0;
 }
 
-Point Point::additionner(string pt)
+Point additionner(const Point* pt, string nom)
 {
 	return Point();
 }
