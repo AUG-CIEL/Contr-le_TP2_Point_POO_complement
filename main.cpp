@@ -30,9 +30,9 @@ int main()
 	b.affiche();
 
 	cout << "Le point " << c.getNom() << " a pour coordonnée:" << endl;
-	c.affiche();
-
-
+	c.affiche(); // C avant calcul	
+	c = a.additionner(&b, "C");
+	c.affiche(); // C après calcul
 	cout << "Le point " << d.getNom() << " a pour coordonnée:" << endl;
 	d.affiche();
 }

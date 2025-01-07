@@ -71,6 +71,7 @@ Point Point::additionner(const Point* pt, string nom)
 	//y=y1+y2
 	somme.y = this->y + pt->y;
 
+	
 	// nom 
 	somme.nom = nom;
 	return somme;
