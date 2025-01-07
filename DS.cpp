@@ -70,7 +70,7 @@ Point Point::additionner(const Point* pt, string nom)
 	somme.x = this->x + pt->x;//x=x1+x2
 	//y=y1+y2
 	somme.y = this->y + pt->y;
-
+	 
 	
 	// nom 
 	somme.nom = nom;
