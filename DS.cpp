@@ -63,9 +63,19 @@ double Point::distance(Point P)
 	return 0.0;
 }
 
-Point additionner(const Point* pt, string nom)
+Point Point::additionner(const Point* pt, string nom)
 {
-	return Point();
+	Point somme;
+
+	somme.x = this->x + pt->x;//x=x1+x2
+	//y=y1+y2
+	somme.y = this->y + pt->y;
+
+	// nom 
+	somme.nom = nom;
+	return somme;
 }
+
+
 
 

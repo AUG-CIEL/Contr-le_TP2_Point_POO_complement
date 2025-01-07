@@ -25,6 +25,7 @@ int main()
 	
 	cout << "Le point " <<a.getNom() <<" a pour coordonnées : " << endl;
 	a.affiche();
+	
 	cout << "Le point "<< b.getNom() << " a pour coordonnées : " << endl;
 	b.affiche();
 
