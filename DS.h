@@ -29,3 +29,15 @@ public :
 	*/ 
 
 };
+class Triangle
+{
+private:
+	
+
+public:
+	Triangle();
+	void init();
+	void affiche();
+	double perimetre();
+
+};
