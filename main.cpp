@@ -22,7 +22,7 @@ int main()
 	d.setX(-1);
 	d.setY(3);
 	d.setNom("D");
-
+	
 	cout << "Le point " <<a.getNom() <<" a pour coordonnées : " << endl;
 	a.affiche();
 	cout << "Le point "<< b.getNom() << " a pour coordonnées : " << endl;
